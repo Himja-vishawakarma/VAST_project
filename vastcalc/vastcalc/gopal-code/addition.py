@@ -1,4 +1,10 @@
+def substraction(n1,n2):
+    sum = n1-n2
+    return sum
+
+
+
 num1 = int(input("enter first number:"))
 num2 = int(input("enter second number:"))
-sum = num1+num2
-print("addition of two number is:", + sum) 
+result = substraction(num1,num2)
+print("substraction of two number is:", - result) 
