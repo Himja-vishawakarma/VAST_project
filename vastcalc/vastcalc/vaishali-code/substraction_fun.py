@@ -1,5 +1,5 @@
 
-def addition(n1,n2):
+def substraction(n1,n2):
     sub = n1-n2
     return sub
 
