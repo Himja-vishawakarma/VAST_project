@@ -1,7 +1,7 @@
 
 def modulus(n1,n2):
-    div = n1%n2
-    return sum
+    mod = n1%n2
+    return mod
 
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
