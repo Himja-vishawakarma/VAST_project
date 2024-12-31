@@ -3,8 +3,8 @@ def percentage(n1,n2):
     perc = (a*b)/100
     return perc
 
-num1 = float(input("Enter values: "))
-num2 = float(input("Enter percentage: "))
-result  = percentage(num1,num2)
+a = float(input("Enter values: "))
+b = float(input("Enter percentage: "))
+result  = percentage(a,b)
 
 print("percentage is: ", result)
