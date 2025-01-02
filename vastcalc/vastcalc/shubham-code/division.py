@@ -6,4 +6,4 @@ a=int(input("Enter the first value:"))
 b=int(input("Enter the second value:"))
 
 result=division(a,b)
-print("The product of the two numbers is:", result)
+print("The division of the two numbers is:", result)
