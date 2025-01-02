@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\ADMIN\Desktop\VAST project\myenv
+set VIRTUAL_ENV=E:\VAST\VAST26_12 GitHub\VAST_project\vastcalc\myenv
 
 if not defined PROMPT set PROMPT=$P$G
 
