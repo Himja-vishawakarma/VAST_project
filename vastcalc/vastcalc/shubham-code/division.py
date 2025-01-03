@@ -1,9 +1,16 @@
 def division(n1, n2):
-    div=(n1/n2)
-    return div
+    
+    try:
+        result=(n1//n2)
+        print("The division of the two numbers is:", result)
+        
+    except:
+        print( "Error: Division by zero is not allowed.")
+    
+    finally:
+        print("The division operation is complete.")
   
 a=int(input("Enter the first value:"))
 b=int(input("Enter the second value:"))
 
-result=division(a,b)
-print("The division of the two numbers is:", result)
+division(a,b)
