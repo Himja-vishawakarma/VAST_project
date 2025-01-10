@@ -1,5 +1,3 @@
-
-
 def count(a, b):
     count = 0
     for item in a:
