@@ -1,18 +1,18 @@
-def subtraction():
+def addition():
     
     try:
       
       num1 = int(input("Enter first number: "))
       num2 = int(input("Enter second number: "))
 
-      result = num1 - num2
+      result = num1 + num2
 
-      print("subtraction of two number is: ", result)
+      print("addition of two number is: ", result)
 
     except:
        print("Invalid input,plzz enter numeric values: ")
 
     finally:
-       print("subtraction operation is completed")
+       print("addition operation is completed")
        
-subtraction()
+addition()
