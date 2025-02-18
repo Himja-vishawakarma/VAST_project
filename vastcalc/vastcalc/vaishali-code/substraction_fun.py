@@ -1,9 +1,17 @@
 
-def substraction(n1,n2):
-    sub = n1-n2
-    return sub
+def subtraction():
+    
+    try:
+      
+      num1 = int(input("Enter first number: "))
+      num2 = int(input("Enter second number: "))
+      result = num1-num2
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-result = substraction(num1,num2)
-print("substraction of two number is: ", result)
+      print("subtraction of two number is: ", result)
+
+    except:
+       print("Invalid input,plzz enter numeric values: ")
+       
+    finally:
+       print("subtraction operation is completed")
+subtraction()
